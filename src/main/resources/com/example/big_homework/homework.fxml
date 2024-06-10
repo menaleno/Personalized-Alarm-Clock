@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorpane_area" prefHeight="667" prefWidth="668" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.big_homework.control_2">
+    <children>
+        <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="105.0" layoutY="108.0">
+            <image>
+                <Image url="@../../../photos/闹钟图标.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="158.0" layoutY="108.0" prefHeight="32.0" prefWidth="136.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="  时间格式：" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+        </Label>
+        <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="105.0" layoutY="209.0">
+            <image>
+                <Image url="@../../../photos/闹钟图标.png" />
+            </image>
+        </ImageView>
+        <ComboBox fx:id="time_style" layoutX="334.0" layoutY="106.0" prefWidth="150.0" />
+        <AnchorPane layoutX="158.0" layoutY="207.0" prefHeight="47.0" prefWidth="289.0" style="-fx-background-color: rgba(0,0,0,0.5);">
+            <children>
+                <Label layoutX="243.0" layoutY="8.0" text="分" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+                <Label layoutX="102.0" layoutY="8.0" text="时" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <ComboBox fx:id="time_hour" layoutX="12.0" layoutY="6.0" prefHeight="32.0" prefWidth="84.0" />
+            <ComboBox fx:id="time_min" layoutX="141.0" layoutY="8.0" prefHeight="32.0" prefWidth="84.0" />
+            </children></AnchorPane>
+        <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="105.0" layoutY="303.0">
+            <image>
+                <Image url="@../../../photos/闹钟图标.png" />
+            </image>
+        </ImageView>
+        <RadioButton layoutX="158.0" layoutY="307.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="音频" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></RadioButton>
+        <RadioButton layoutX="318.0" layoutY="307.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="图片" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></RadioButton>
+        <RadioButton layoutX="484.0" layoutY="307.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="视频" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></RadioButton>
+        <Label layoutX="65.0" layoutY="377.0" prefHeight="36.0" prefWidth="136.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="  文件地址：" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+        <TextArea layoutX="215.0" layoutY="436.0" prefHeight="157.0" prefWidth="419.0" />
+        <Label layoutX="109.0" layoutY="436.0" prefHeight="32.0" prefWidth="91.0" style="-fx-background-color: rgba(0,0,0,0.5);" text="  描述：" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button layoutX="526.0" layoutY="601.0" mnemonicParsing="false" opacity="0.9" prefHeight="36.0" prefWidth="77.0" text="确定" />
+      <Label layoutX="218.0" layoutY="377.0" prefHeight="36.0" prefWidth="298.0" style="-fx-background-color: rgba(0,0,0,0.5);" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="518.0" layoutY="377.0" mnemonicParsing="false" opacity="0.75" prefHeight="36.0" prefWidth="118.0" text="文件选择" />
+    </children>
+</AnchorPane>
