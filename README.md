@@ -7,4 +7,4 @@
     - Basis function
     - Auto-save alarm configuration
     - Modifying Alarm Names and Adding Descriptions to Alarms
-    - The file it derive is '.jar' and you may need to use the cmd command 'java -jar XXXX.jar'
+    - The file it derive is '.jar' and you may need to use the cmd command 'java -jar XXXX.jar' to execute
