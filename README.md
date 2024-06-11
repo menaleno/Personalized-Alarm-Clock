@@ -4,6 +4,7 @@
 
 
 ### version1.0
-    - basis function
+    - Basis function
     - Auto-save alarm configuration
     - Modifying Alarm Names and Adding Descriptions to Alarms
+    - The file it derive is '.jar' and you may need to use the cmd command 'java -jar XXXX.jar'
